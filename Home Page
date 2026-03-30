@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Data Analytics Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+            color: #1a1a2e;
+            background: #f8fafc;
+            padding: 2rem 1rem;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        /* Header */
+        .header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        .header h1 {
+            font-size: 2.5rem;
+            color: #0f172a;
+            margin-bottom: 0.5rem;
+        }
+        .header p {
+            font-size: 1.2rem;
+            color: #475569;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .badge {
+            display: inline-block;
+            background: #e2e8f0;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            color: #1e293b;
+            margin-top: 1rem;
+        }
+        /* Navigation */
+        .nav {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-bottom: 3rem;
+            border-bottom: 1px solid #e2e8f0;
+            padding-bottom: 1rem;
+        }
+        .nav a {
+            text-decoration: none;
+            color: #475569;
+            font-weight: 500;
+        }
+        .nav a:hover {
+            color: #3b82f6;
+        }
+        /* Section */
+        .section {
+            background: white;
+            border-radius: 16px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            border: 1px solid #e2e8f0;
+        }
+        .section h2 {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            color: #0f172a;
+            border-left: 4px solid #3b82f6;
+            padding-left: 1rem;
+        }
+        /* Progress Bar */
+        .progress-item {
+            margin-bottom: 1.5rem;
+        }
+        .progress-label {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+        }
+        .progress-bar-bg {
+            background: #e2e8f0;
+            border-radius: 20px;
+            height: 10px;
+            overflow: hidden;
+        }
+        .progress-bar-fill {
+            background: #3b82f6;
+            height: 100%;
+            border-radius: 20px;
+            width: 0%;
+        }
+        /* Week Grid */
+        .week-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        .week-card {
+            background: #f1f5f9;
+            padding: 1rem;
+            border-radius: 12px;
+            border-left: 3px solid #3b82f6;
+        }
+        .week-card h3 {
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+            color: #0f172a;
+        }
+        .week-card p {
+            font-size: 0.85rem;
+            color: #475569;
+        }
+        .status {
+            display: inline-block;
+            margin-top: 0.5rem;
+            font-size: 0.75rem;
+            padding: 0.2rem 0.5rem;
+            border-radius: 12px;
+            background: #e2e8f0;
+        }
+        /* Footer */
+        .footer {
+            text-align: center;
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid #e2e8f0;
+            color: #64748b;
+            font-size: 0.85rem;
+        }
+        @media (max-width: 640px) {
+            .section {
+                padding: 1.5rem;
+            }
+            .nav {
+                gap: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📊 Your Name</h1>
+            <p>Ecommerce Professional → Data Analyst</p>
+            <div class="badge">📅 Curriculum Started: April 1, 2026</div>
+        </div>
+
+        <div class="nav">
+            <a href="index.html">📖 Curriculum</a>
+            <a href="portfolio.html">📁 Portfolio</a>
+            <a href="resources.html">🔗 Resources</a>
+        </div>
+
+        <!-- Overall Progress -->
+        <div class="section">
+            <h2>📈 Overall Progress</h2>
+            <div class="progress-item">
+                <div class="progress-label">
+                    <span>Phase 1: Foundations (Weeks 1-4)</span>
+                    <span>0%</span>
+                </div>
+                <div class="progress-bar-bg">
+                    <div class="progress-bar-fill" style="width: 0%;"></div>
+                </div>
+            </div>
+            <div class="progress-item">
+                <div class="progress-label">
+                    <span>Phase 2: SQL Mastery (Weeks 5-8)</span>
+                    <span>0%</span>
+                </div>
+                <div class="progress-bar-bg">
+                    <div class="progress-bar-fill" style="width: 0%;"></div>
+                </div>
+            </div>
+            <div class="progress-item">
+                <div class="progress-label">
+                    <span>Phase 3: Visualization (Weeks 9-12)</span>
+                    <span>0%</span>
+                </div>
+                <div class="progress-bar-bg">
+                    <div class="progress-bar-fill" style="width: 0%;"></div>
+                </div>
+            </div>
+            <div class="progress-item">
+                <div class="progress-label">
+                    <span>Phase 4: Statistics (Weeks 13-14)</span>
+                    <span>0%</span>
+                </div>
+                <div class="progress-bar-bg">
+                    <div class="progress-bar-fill" style="width: 0%;"></div>
+                </div>
+            </div>
+            <div class="progress-item">
+                <div class="progress-label">
+                    <span>Phase 5: Portfolio Launch (Weeks 15-16)</span>
+                    <span>0%</span>
+                </div>
+                <div class="progress-bar-bg">
+                    <div class="progress-bar-fill" style="width: 0%;"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Weekly Breakdown -->
+        <div class="section">
+            <h2>📅 Weekly Curriculum</h2>
+            <div class="week-grid">
+                <div class="week-card">
+                    <h3>Week 1 (Apr 1-7) • Foundations</h3>
+                    <p>Google Certificate Course 1 + GitHub setup</p>
+                    <span class="status">⏳ Not Started</span>
+                </div>
+                <div class="week-card">
+                    <h3>Week 2 (Apr 8-14) • Data Prep</h3>
+                    <p>Google Certificate Course 2 + Olist dataset</p>
+                    <span class="status">⏳ Not Started</span>
+                </div>
+                <div class="week-card">
+                    <h3>Week 3 (Apr 15-21) • Analysis Fundamentals</h3>
+                    <p>Google Certificate Course 3</p>
+                    <span class="status">⏳ Not Started</span>
+                </div>
+                <div class="week-card">
+                    <h3>Week 4 (Apr 22-28) • Data Cleaning</h3>
+                    <p>Google Certificate Course 4 + Data dictionary</p>
+                    <span class="status">⏳ Not Started</span>
+                </div>
+                <div class="week-card">
+                    <h3>Week 5 (Apr 29-May 5) • SQL Fundamentals</h3>
+                    <p>Mode SQL Tutorial: SELECT, WHERE, GROUP BY</p>
+                    <span class="status">⏳ Not Started</span>
+                </div>
+                <div class="week-card">
+                    <h3>Week 6 (May 6-12) • SQL Joins</h3>
+                    <p>Mode SQL Tutorial: Joins + Olist queries</p>
+                    <span class="status">⏳ Not Started</span>
+                </div>
+                <div class="week-card">
+                    <h3>Week 7 (May 13-19) • SQL Subqueries & CTEs</h3>
+                    <p>Advanced SQL + LTV queries</p>
+                    <span class="status">⏳ Not Started</span>
+                </div>
+                <div class="week-card">
+                    <h3>Week 8 (May 20-26) • Window Functions</h3>
+                    <p>7-Day SQL Challenge + Upload to GitHub</p>
+                    <span class="status">⏳ Not Started</span>
+                </div>
+                <div class="week-card">
+                    <h3>Week 9 (May 27-Jun 2) • Tableau Fundamentals</h3>
+                    <p>Google Certificate Course 5 + Tableau Public</p>
+                    <span class="status">⏳ Not Started</span>
+                </div>
+                <div class="week-card">
+                    <h3>Week 10 (Jun 3-9) • Dashboard Design</h3>
+                    <p>Sales performance dashboard</p>
+                    <span class="status">⏳ Not Started</span>
+                </div>
+                <div class="week-card">
+                    <h3>Week 11 (Jun 10-16) • Cohort Analysis</h3>
+                    <p>Retention dashboard + publish</p>
+                    <span class="status">⏳ Not Started</span>
+                </div>
+                <div class="week-card">
+                    <h3>Week 12 (Jun 17-23) • Case Study</h3>
+                    <p>Write Medium article + Google Course 6</p>
+                    <span class="status">⏳ Not Started</span>
+                </div>
+                <div class="week-card">
+                    <h3>Week 13 (Jun 24-30) • A/B Testing Theory</h3>
+                    <p>Udacity A/B Testing Course</p>
+                    <span class="status">⏳ Not Started</span>
+                </div>
+                <div class="week-card">
+                    <h3>Week 14 (Jul 1-7) • Applied Experimentation</h3>
+                    <p>Mock A/B test analysis + Google Course 7</p>
+                    <span class="status">⏳ Not Started</span>
+                </div>
+                <div class="week-card">
+                    <h3>Week 15 (Jul 8-14) • Portfolio Polish</h3>
+                    <p>Consolidate projects + Google Capstone</p>
+                    <span class="status">⏳ Not Started</span>
+                </div>
+                <div class="week-card">
+                    <h3>Week 16 (Jul 15-21) • Launch</h3>
+                    <p>Resume finalized + First applications</p>
+                    <span class="status">⏳ Not Started</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            📍 Last updated: March 30, 2026 | 🎯 Target: First analytics role by August 2026
+        </div>
+    </div>
+</body>
+</html>
